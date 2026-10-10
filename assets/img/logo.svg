@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Milk Cake Bakery">
+  <defs>
+    <linearGradient id="mc-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E0B45B"/>
+      <stop offset="1" stop-color="#C8912F"/>
+    </linearGradient>
+    <linearGradient id="mc-pink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E68A97"/>
+      <stop offset="1" stop-color="#D96A7A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- emblem ring -->
+  <circle cx="32" cy="32" r="30.4" fill="none" stroke="url(#mc-gold)" stroke-width="1.4"/>
+  <circle cx="32" cy="32" r="26.4" fill="none" stroke="url(#mc-gold)" stroke-width=".6" opacity=".45"/>
+
+  <!-- milk droplet topper -->
+  <path d="M32 20.4c0 0-4.6 6.2-4.6 9.3a4.6 4.6 0 0 0 9.2 0c0-3.1-4.6-9.3-4.6-9.3Z" fill="url(#mc-pink)"/>
+
+  <!-- buttercream swirl -->
+  <circle cx="25.6" cy="36.4" r="5.5" fill="url(#mc-gold)"/>
+  <circle cx="38.4" cy="36.4" r="5.5" fill="url(#mc-gold)"/>
+  <circle cx="32" cy="33.4" r="6.5" fill="url(#mc-gold)"/>
+
+  <!-- cupcake case -->
+  <path d="M23 38.5h18l-2.7 12.4a2.4 2.4 0 0 1-2.36 1.9h-9.88a2.4 2.4 0 0 1-2.36-1.9L23 38.5Z" fill="#3B2417"/>
+  <path d="M28.6 40.5l-.7 10.2M32 40.5v10.4M35.4 40.5l.7 10.2" stroke="#FBF6EF" stroke-width="1.1" stroke-linecap="round" opacity=".55"/>
+</svg>
